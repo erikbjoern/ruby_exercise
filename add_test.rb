@@ -12,8 +12,8 @@ puts "\nSo your full name is #{full_name}. Do you have any middle names? If so, 
 middle_name = gets.chomp.capitalize
 full_full_name = first_name + " " + middle_name + " " + last_name
 unless middle_name == "No"
-    puts "\nOK, so #{full_name} really is your  f u l l  name.\nNice."
+    puts "\nOK, so #{full_full_name} really is your  f u l l  name.\nNice."
     exit (0)
-else puts "\nSoo, #{full_full_name} really is your  f u l l  name.\nNice."
+else puts "\nSoo, #{full_name} really is your  f u l l  name.\nNice."
     exit (0)
 end
